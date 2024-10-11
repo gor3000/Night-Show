@@ -37,4 +37,9 @@ public class Launcher {
     private static int pow(int a, int b) {
         return (int) Math.pow(a, b);
     }
+
+    private static int min(int a, int b) {
+        return a < b ? a : b;
+
+    }
 }
